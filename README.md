@@ -15,12 +15,12 @@ Project Questions
 Sources & Data Wrangling
 -------------------------
 * Environmental Factors: Climate data (average, minimum, and maximum temperatures by county) from the National Center for Environmental Data (NCEI)
-** https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping
+https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping
 * Demographic Factors: Population density (per 100k) and age data from U.S. Census (2020-2023) (Census)
-** https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-detail.html
+https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-detail.html
 * Healthcare Factors: COVID-19 vaccination and death rates (per 100k) from U.S. Department of Health & Human Services (Vaccination rates, Death rates)
-** https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh/about_data
-** https://catalog.data.gov/dataset/provisional-covid-19-death-counts-in-the-united-states-by-county
+https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh/about_data
+https://catalog.data.gov/dataset/provisional-covid-19-death-counts-in-the-united-states-by-county
 
 
 Analysis
@@ -44,7 +44,8 @@ K-Means clustering provided limited insights:
 * Smaller populations displayed a tendency for higher death rates
 * No consistent relationship was observed between average temperature and COVID-19 death rates, although moderate to warm temperatures were weakly associated with higher death rates
 
-Tableau visualizations
+Tableau visualizations:
+https://public.tableau.com/app/profile/eduardo.almonte/viz/COVIDvsTotalDeaths/Dashboard1
 * Western states show fewer counties with high death counts, which can reflect lower population density relative to other regions
 * Higher death counts are seen on the West and Southeast, but there is a broader spread of death counts across Midwest & Northeast
 * Warmer regions (in South & Southeast) show higher death rates
@@ -55,16 +56,19 @@ Overall, these weak results suggest that additional factors and refined models m
 Future Considerations
 -------------------------
 To enhance the predictive power of models and gain a deeper understanding of disease vulnerability, future research could include the following factors:
-* Environmental Factors
-** Flight Paths and Traffic Flow: High traffic flow or proximity to major flight paths may give an insight on environmental impact (for example, the air quality and pollution levels of a given region)
-** Seasonal Patterns: Other seasonal variables, like humidity and precipitation, and seasonal changes could provide valuable insight into how climate influences illness susceptibility trends across regions and time
-* Demographic Factors
-** Gender and Race/Ethnicity: Future research could benefit from analyzing gender and race/ethnicity, as these groups may experience different health outcomes, healthcare access, and predispositions to health concerns
-** Socioeconomic Factors: Including data on poverty rates and household income would provide a more nuanced understanding of how socioeconomic disparities play a role in both the spread of infection and recovery rates
-* Healthcare Factors
-** Vaccination Rates and Access: Further exploration into regional vaccination rates, access, and hesitancy could yield more accurate insights. As well as assessing disparities in vaccination access by geographic or socioeconomic status
-** Healthcare Infrastructure: Healthcare infrastructure, such as hospital capacity, ICU availability, and access to primary care may show us how infection susceptibility interacts with mortality and recovery rates
-** Pre-existing Conditions and Holistic Medicine Use: Understanding how pre-existing conditions and varying healthcare practices, such as the use of holistic or alternative medicine, would deepen the analysis
+
+Environmental Factors
+* Flight Paths and Traffic Flow: High traffic flow or proximity to major flight paths may give an insight on environmental impact (for example, the air quality and pollution levels of a given region)
+* Seasonal Patterns: Other seasonal variables, like humidity and precipitation, and seasonal changes could provide valuable insight into how climate influences illness susceptibility trends across regions and time
+
+Demographic Factors
+* Gender and Race/Ethnicity: Future research could benefit from analyzing gender and race/ethnicity, as these groups may experience different health outcomes, healthcare access, and predispositions to health concerns
+* Socioeconomic Factors: Including data on poverty rates and household income would provide a more nuanced understanding of how socioeconomic disparities play a role in both the spread of infection and recovery rates
+
+Healthcare Factors
+* Vaccination Rates and Access: Further exploration into regional vaccination rates, access, and hesitancy could yield more accurate insights. As well as assessing disparities in vaccination access by geographic or socioeconomic status
+* Healthcare Infrastructure: Healthcare infrastructure, such as hospital capacity, ICU availability, and access to primary care may show us how infection susceptibility interacts with mortality and recovery rates
+* Pre-existing Conditions and Holistic Medicine Use: Understanding how pre-existing conditions and varying healthcare practices, such as the use of holistic or alternative medicine, would deepen the analysis
 
 Conclusion
 -------------------------
