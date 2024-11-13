@@ -15,11 +15,17 @@ Project Questions
 Sources & Data Wrangling
 -------------------------
 * Environmental Factors: Climate data (average, minimum, and maximum temperatures by county) from the National Center for Environmental Data (NCEI)
+
 https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping
+
 * Demographic Factors: Population density (per 100k) and age data from U.S. Census (2020-2023) (Census)
+
 https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-detail.html
+
 * Healthcare Factors: COVID-19 vaccination and death rates (per 100k) from U.S. Department of Health & Human Services (Vaccination rates, Death rates)
+
 https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh/about_data
+
 https://catalog.data.gov/dataset/provisional-covid-19-death-counts-in-the-united-states-by-county
 
 
